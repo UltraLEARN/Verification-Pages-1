@@ -1,0 +1,145 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;padding: 2;
+  font-family: montressat;
+}
+
+.column1, .column2 {
+  float: left;
+  width: 50%;
+  min-height: 500px;
+  flex: 50%;
+  height: auto; 
+}
+.header{
+   font-weight: 700;
+}
+.logo{
+  width:15vw;
+  padding: 0%;
+  margin-top: -4vw;
+  margin-left: -3vw;
+  margin-right: -6vw;
+  float: left;
+}
+.column2{
+  padding: 2%;
+}
+.toptext{
+  color: 
+  #5F0F40;
+  font-weight: 700;
+  padding:16px;
+}
+.text{
+  color: rgba(92, 39, 209, 0.5);
+  font-weight: 400;
+  
+padding: inherit;}
+.email{
+  font-weight: 500;
+  font-size: 24px;
+  padding-top: 4.3vw;padding-left: inherit;font-style: bold;
+}
+
+.column1{
+	background-color: rgba(95, 15, 64, 0.03)
+
+
+}
+
+input::placeholder{
+  color:black;
+  border-color: transparent;
+  font-style: italic;
+  opacity: 3; 
+}
+
+.btn{
+  height: 30px;
+  width: 50%;
+  background-color: 
+  #5F0F40;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+input[type="text"] {
+  border: 1px black solid ; 
+  background-color: rgb(252, 248, 248);
+  padding: 1em;
+  opacity:1;
+  width: 50%;
+  height: 40px;
+  border-radius: 5px; 
+}
+
+.centreright p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topright{
+  height: 20vw;
+  padding: 2px;
+  font-family:  'Arial Narrow Bold', sans-serif;
+}
+
+.topright p{
+  color: rgb(117, 103, 103);
+}
+
+.centreright{
+  height: 15vw;
+  padding-top: 3px;
+}
+
+.topleft h2, img{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-right: auto; */
+  width: 70%;
+  padding: 2%;
+  height: 70%; 
+}
+
+.form{
+  height: 20vw;
+}
+
+.innerform{
+  height: 5vw;
+}
+
+.btnholder{
+  padding-top: 6vw;
+  padding-bottom: 2vw;
+}
+
+/* Responsive layout - when the screen is less than 768px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 768px) {
+.column1, .column2 {
+    width: 100%;
+    height: 100%;
+    
+}
+.logo{
+  width: auto;
+  margin-right:;
+  
+}
+.toptext{
+  padding-top: 9vw;
+}
+input[type="text"] {
+  width: 80vw;
+}
+.btn{
+  width: 80vw;
+}
+
+}
