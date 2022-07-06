@@ -76,14 +76,10 @@ input[type="text"] {
   border-radius: 5px; 
 }
 
-.centreright p{
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 .topright{
   height: 20vw;
   padding: 2px;
-  font-family:  'Arial Narrow Bold', sans-serif;
+
 }
 
 .topright p{
